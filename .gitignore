@@ -1,0 +1,13 @@
+# Rust build artifacts
+target/
+**/target/
+
+# Cargo lock files (these are small learning binaries, lock files just add noise)
+Cargo.lock
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
