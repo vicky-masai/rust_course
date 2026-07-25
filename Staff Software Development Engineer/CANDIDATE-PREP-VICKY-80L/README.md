@@ -10,4 +10,5 @@ Freelance fullstack SaaS/e-commerce (2020+) → Rust → startup multi-tenant ow
 3. Then files **01 → 09**
 
 **Main Q&A:** `04-FINAL-STAFF-SDE-STUDY-GUIDE.md`  
-**Live voice:** `05-ANSWER-SCRIPTS-60MIN.md`
+**Live voice:** `05-ANSWER-SCRIPTS-60MIN.md`  
+**Final before interview:** `15-FINAL-INTERVIEW-GUIDANCE-SENIOR-STAFF-TIPS.md` (tips + stuck recovery + all key Q&A)

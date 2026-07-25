@@ -20,6 +20,11 @@ These files were **rewritten for real Vicky**: freelance fullstack SaaS → Rust
 | 7 | `07-HOW-THEY-WILL-SCORE-YOU.md` | How panel scores |
 | 8 | `08-7DAY-PREP-AND-DAY-OF.md` | Checklists |
 | 9 | `09-QUESTIONS-AND-80L-POSITIONING.md` | Close + comp |
+| **15** | [`15-FINAL-INTERVIEW-GUIDANCE-SENIOR-STAFF-TIPS.md`](15-FINAL-INTERVIEW-GUIDANCE-SENIOR-STAFF-TIPS.md) | **FINAL DOCS** — tips, stuck recovery, all Q&A with Senior Staff guidance |
+
+## After 01–09, read file 15 before interview
+
+File **15** is the final single guidance doc: interview tips, what to do when stuck/forget, and in-depth Q&A with Senior Staff tips.
 
 ## OPTIONAL 10–14
 

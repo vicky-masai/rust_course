@@ -43,7 +43,8 @@ Done when: security answers are smooth **and** honest.
 
 ## TUESDAY
 
-Identity once · proxy once · 8 threats once · 3 questions ready · **no new topics**
+Read once: `15-FINAL-INTERVIEW-GUIDANCE-SENIOR-STAFF-TIPS.md` (tips + stuck recovery + memory card only)  
+Then: identity once · proxy once · 8 threats once · 3 questions ready · **no new topics**
 
 ---
 
