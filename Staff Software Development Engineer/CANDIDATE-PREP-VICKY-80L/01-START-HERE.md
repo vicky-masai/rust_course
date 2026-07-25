@@ -1,19 +1,21 @@
-# 01 — START HERE (Vicky)
+# 01 — START HERE (Updated for real Vicky)
 
-Welcome. This folder is **your** path to the Zscaler Staff Software Development Engineer interview (~₹80L bar).
+**Who you are (say this truth in the interview):**
 
-## Rules
+> You are a product-building engineer with ~6 years of ownership. From 2020 you freelanced fullstack, building e-commerce/SaaS products for clients and deploying them with nginx, Cloudflare, DNS, CI/CD, VPS, and later AWS. After freelancing, you joined a startup to build its multi-tenant SaaS WMS from zero to one. The owner gave you the idea/PRD; you translated it into architecture and a production product, and you continue to own the complete project. You implemented Rust services, PostgreSQL, JWT, tenant isolation, RLS, RBAC/ABAC, Redis jobs, APIs, deployment, and observability. You are **not** a deep security researcher yet — you ship secure-by-default patterns and are ready to go deeper at Zscaler.
 
-1. Open [`00-READ-IN-THIS-ORDER.md`](00-READ-IN-THIS-ORDER.md) and follow **numbers only**.
-2. You already have ~6 years ownership — do not over-practice “I take ownership.” Practice **depth**: Rust, design, security, Staff framing.
-3. File **04** is the main study book. File **05** is what you say in the room.
-4. Practice **out loud**. Reading silently is not enough.
-5. Do not invent scale numbers. Use only resume metrics.
+## Rules for this weekend
 
-## Your one-line identity (memorize)
+1. Follow [`SATURDAY-TO-TUESDAY-PLAN.md`](SATURDAY-TO-TUESDAY-PLAN.md) + files **02 → 09**.
+2. **Do not fake deep crypto/security.** Use the honest Staff security answers in file **04**.
+3. **Do sell hard:** PRD→product ownership, multi-tenant authz, Rust concurrency/perf, nginx/Cloudflare/proxy/DNS/deploy.
+4. Practice **out loud**. Reading is not enough.
+5. Use only real experience + the frameworks in these books.
 
-> “Founding backend engineer on a multi-tenant WMS — I own Rust/Axum services, Postgres tenancy, Redis jobs, and EKS production; I cut inventory-locking P99 from 800ms to 120ms.”
+## Your 20-second identity (memorize)
 
-## Next file
+> “I started as a freelance fullstack builder in 2020, delivering complete SaaS and e-commerce products for clients. I then joined a startup and built its multi-tenant SaaS WMS from zero to one. I own the full project: PRD translation, Rust backend, APIs, PostgreSQL, JWT/RBAC/ABAC/RLS, Redis jobs, CI/CD, cloud deployment, observability, and production support. I’m interviewing for Staff SDE to bring that zero-to-one ownership to Zscaler’s cloud-security scale.”
 
-→ Open **[`02-RESUME-VS-STAFF-BAR.md`](02-RESUME-VS-STAFF-BAR.md)**
+## Next
+
+→ [`02-RESUME-VS-STAFF-BAR.md`](02-RESUME-VS-STAFF-BAR.md)

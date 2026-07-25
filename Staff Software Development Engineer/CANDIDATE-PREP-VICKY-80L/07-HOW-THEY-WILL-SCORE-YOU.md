@@ -1,44 +1,30 @@
-# 07 — HOW THEY WILL SCORE YOU
+# 07 — HOW THEY SCORE YOU (Updated expectations)
 
-The Senior Staff engineer uses `../FINAL-1HOUR-BOOK/`.  
-You do **not** need to read that whole folder. This file is enough.
+## What satisfies a Senior Staff eng for YOUR profile
 
----
+| Section | They need to hear | Your win condition |
+|---------|-------------------|--------------------|
+| Ownership | Joined startup and built SaaS WMS 0→1; full lifecycle + numbers | Strongest area — lead with this |
+| Rust | Send/Sync, async, unwrap, p99 story | Must be clean |
+| Design | Proxy layers + policy cache + fail closed | Use CF/nginx bridge |
+| Security | Structured threats + honest depth | **Critical** — use file 04 scripts |
+| Leadership | Contracts + blocked unsafe ship | Frame freelance/startup stakeholders |
 
-## What they score (1–4 each)
+## Offer bar (unchanged)
 
-| Section | Minutes | You need |
-|---------|---------|----------|
-| A Ownership | 3–12 | Your WMS story + numbers + incident |
-| B Rust | 12–27 | Send/Sync, async CPU, unwrap, p99 debug |
-| C System design | 27–42 | Proxy, control vs data plane, fail closed, tenancy |
-| D Security | 42–50 | TLS, threat model, Rust ≠ appsec (**must ≥3**) |
-| E Leadership | 50–55 | Cross-role impact + blocked unsafe ship (**must ≥3**) |
-| F Communication | whole call | Clear, structured, honest |
+Total ≥18/24 feel · Security not failing · Leadership not empty · No fake claims caught
 
-**Staff ₹80L recommendation needs:** total ≥18/24, no 1s, Security≥3, Leadership≥3, Design≥3, Ownership≥3.
+## Their 11 questions — your angle
 
----
+1. Ownership → startup WMS zero-to-one first; freelance is supporting history  
+2–5. Rust → locking / Tokio  
+6. Proxy → CF/nginx bridge + design  
+7–9. Security → honest + checklist  
+10–11. Leadership → contracts + no unsafe shortcut  
 
-## Their exact question list (know these)
+## Red flag they will punish
 
-1. System you owned — design, numbers, incident, fix  
-2. Ownership + Send/Sync + bug  
-3. CPU on async runtime + cancellation  
-4. Unsafe / unwrap on request path  
-5. p99 ×3 — debug  
-6. Multi-tenant proxy + fail open/closed + tenant isolation  
-7. TLS 1.3 + resumption  
-8. Threat model control-plane API  
-9. Rust safe ≠ appsec  
-10. Cross-team initiative + metric  
-11. Blocked dangerous ship  
+Pretending deep security while fumbling basics.  
+**Honesty + framework > fake expert.**
 
-Full interviewer keys (optional peek): `../FINAL-1HOUR-BOOK/02-FULL-QA.md`  
-Pocket card: `../FINAL-1HOUR-BOOK/05-POCKET-CARD.md`
-
----
-
-## Next file
-
-→ Open **[`08-7DAY-PREP-AND-DAY-OF.md`](08-7DAY-PREP-AND-DAY-OF.md)**
+Next → [`08-7DAY-PREP-AND-DAY-OF.md`](08-7DAY-PREP-AND-DAY-OF.md)

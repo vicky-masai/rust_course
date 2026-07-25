@@ -1,132 +1,61 @@
-# 02 — What They Will Ask From YOUR Resume
+# 03 — What They Will Ask (From Real Vicky Story)
 
-Senior Staff interviewer at Zscaler will skim your PDF in 60 seconds.  
-Here is what they will **highlight** and the **predicted questions** — prepare these before generic trivia.
-
----
-
-## Resume lines that trigger probes
-
-### 1. “Founding Engineer” + “owned … end to end”
-**They think:** Is this Staff or just sole developer on a small app?  
-**They ask:**
-- What decisions were yours alone?
-- Who reviewed your designs?
-- What would break if you left tomorrow?
-
-**Your prep:** Name 3 irrevocable decisions (RLS tenancy model, Rust migration of locking path, jobs off request path) + how you documented contracts for others.
+Senior Staff will hear “freelance fullstack → Rust → multi-tenant SaaS.”  
+Predicted probes and how you win.
 
 ---
 
-### 2. “Migrated … Node.js to Rust … P99 800ms → 120ms”
-**They think:** Prove it — methodology, not slogan.  
-**They ask:**
-- How did you measure P99?
-- What was the bottleneck — GC, locks, DB, event loop?
-- Why not optimize Node first?
-- Any regressions after migrate?
+## Probe set A — Builder / PRD ownership (YOUR HOME GROUND)
 
-**Your prep:** Load test setup → flame/trace → race on concurrent reserve → Rust + transactions → before/after histogram → canary/rollback thought.
+**They ask:** “Someone gives you a PRD — what do you do?”  
+**You win by:** requirements → tenancy/auth → data model → APIs → deploy (nginx/Cloudflare/CI) → observability → iterate.
+
+**They ask:** “Freelance vs startup — what’s different?”  
+**You win by:** freelance = full ownership + client scope; startup = longer-lived invariants, multi-facility tenancy, Rust performance.
 
 ---
 
-### 3. “Eliminated race conditions” / Inventory locking
-**They think:** Perfect bridge to Rust `Send`/`Sync` and DB transactions.  
-**They ask:**
-- What was the race (lost update? double allocate?)?
-- SELECT FOR UPDATE vs optimistic version vs Redis lock?
-- What happens under retry?
+## Probe set B — Multi-tenant auth (THEY WILL GO DEEP)
 
-**Your prep:** One crisp race story + why DB transaction was source of truth.
+**They ask:** JWT vs session? RLS enough alone? RBAC vs ABAC?  
+**You win by:** defense in depth — API authz + RLS; RBAC roles; ABAC attributes (facility, permission); default deny; never trust client tenant_id.
 
----
-
-### 4. “PostgreSQL RLS … RBAC … API authorization”
-**They think:** Multi-tenant — Zscaler’s favorite.  
-**They ask:**
-- RLS alone enough?
-- Cross-tenant IDOR example you prevented?
-- Fail open or fail closed when authz service/config wrong?
-
-**Your prep:** Defense in depth: JWT/session → API authz → RLS → audit. Default deny.
+**They ask:** “Did you design security yourself or copy from AI/docs?”  
+**Honest Staff answer:**  
+> “I use references and tools like any modern engineer, but I own the decisions: tenant isolation model, where checks run, and tests for cross-tenant access. I don’t claim novel crypto research.”
 
 ---
 
-### 5. “Redis queues … 5K+ daily jobs … decoupled from API”
-**They think:** Backpressure / reliability.  
-**They ask:**
-- At-least-once? Idempotency?
-- Poison message?
-- What if Redis is down — API still up?
+## Probe set C — nginx / Cloudflare / DNS (BRIDGE TO ZSCALER)
 
-**Your prep:** Job idemptency keys, DLQ idea, degrade mode for non-critical jobs.
+**They ask:** How do you terminate TLS / proxy traffic today?  
+**You win by:** Cloudflare DNS/proxy/WAF-ish edge → origin VPS/AWS → nginx reverse proxy → app. Certificates, caching, rate limits at edge.  
+**Bridge:** “I haven’t built Zscaler’s global data plane, but I reason in proxy layers: edge, TLS, routing, upstream, logs.”
 
 ---
 
-### 6. “40+ REST APIs … idempotent writes … RFC 7807”
-**They think:** API taste / integration safety.  
-**They ask:**
-- Idempotency key design?
-- Versioning strategy?
-- Breaking change process?
+## Probe set D — Rust (MUST BE CLEAN)
+
+**They ask:** Why Rust? Send/Sync? Async pitfalls?  
+**You win by:** concurrency/races/latency on hot path; Arc vs Rc; no blocking on runtime; no unwrap on IO.
 
 ---
 
-### 7. “AWS EKS … OpenTelemetry … deploy 45→8 min”
-**They think:** Operability for Staff.  
-**They ask:**
-- What traces did you add on the hot path?
-- How do you catch p99 regressions before full rollout?
+## Probe set E — Security product design (HARDEST)
+
+**They ask:** Fail open vs fail closed? Threat model?  
+**You win by:** memorized frameworks from file **04** — structured, honest, default deny.  
+**You lose by:** hand-waving “HTTPS + JWT is enough.”
 
 ---
 
-### 8. “Google Cloud Agentic AI Hackathon Finalist”
-**They think:** Interesting, maybe off-topic.  
-**They ask (maybe):** How does this relate to Zscaler?  
-**Your prep:** One sentence — agents need tool authz and audit; then pivot back to systems/security. Do **not** deepen unless they insist.
+## Probe set F — Staff leadership
+
+**They ask:** Cross-team impact?  
+**You win by:** client + frontend + ops adoption of your API contracts; migration playbooks; saying no to unsafe shortcuts.
 
 ---
 
-### 9. Education: B.A. Psychology & Economics
-**They may ask:** Non-traditional path?  
-**Your answer (30 sec):**  
-> “I built production systems for years as a consultant, then as founding backend. My evaluation should be the systems I shipped — tenancy, Rust concurrency, production ops — not the degree title.”
+## Next
 
----
-
-## Predicted 60-minute flow mapped to YOU
-
-| Min | Their question (from FINAL book) | They will connect to your resume |
-|-----|----------------------------------|----------------------------------|
-| 3–12 | Ownership story | CodeApto WMS / Rust migration |
-| 12–27 | Rust Send/Sync, async, unsafe, p99 | Inventory locking + Tokio |
-| 27–42 | Proxy design | They test if you can **generalize** beyond WMS |
-| 42–50 | TLS, threat model, appsec | Your RLS/RBAC must expand to full threat model |
-| 50–55 | Cross-team + blocked ship | Founding influence + “I delayed a bad release” story |
-
----
-
-## Interviewer private hypothesis (what you must disprove)
-
-> “Strong founding Senior. Maybe not Staff. Scale small. Security product experience missing.”
-
-**Disprove by:**
-1. Structured design on Q6 (control/data plane, fail-closed, tenancy).  
-2. Security answers that go beyond RLS.  
-3. Leadership story with **adoption + metric** (API contracts, migration playbook, deploy time).  
-4. Honest scale + clear 10×/100× scaling plan.
-
----
-
-## Cheat: phrases that raise your level mid-answer
-
-Use naturally (not as buzzword salad):
-
-- “The invariant we protect is…”
-- “Blast radius if this fails…”
-- “Default deny / fail closed because…”
-- “On the hot path we never…”
-- “I’d separate control plane from data plane by…”
-- “Idempotency key so at-least-once is safe…”
-- “Tenant_id is on every log and authz check…”
-- “Rollback plan before ship…”
+→ [`04-FINAL-STAFF-SDE-STUDY-GUIDE.md`](04-FINAL-STAFF-SDE-STUDY-GUIDE.md) — main Q&A (updated for you)
