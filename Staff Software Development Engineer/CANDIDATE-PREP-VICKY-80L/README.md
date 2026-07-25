@@ -1,32 +1,32 @@
-# CANDIDATE PREP BOOK — Clear Staff SDE @ Zscaler (~₹80L)
+# CANDIDATE PREP — Vicky Kumar → Staff SDE @ Zscaler (~₹80L)
 
-**Candidate:** Vicky Kumar (resume: `Vicky_Backend_Engineer.pdf`)  
-**Target role:** Staff Software Development Engineer at Zscaler  
-**Interview:** 60 minutes with a Senior/Staff engineer  
-**Goal:** Score ≥18/24 on their FINAL-1HOUR-BOOK and justify Staff + ₹80L  
+## Open this first (interview is TUESDAY)
 
----
-
-## START HERE — ONE FINAL DOCUMENT
-
-**→ [`FINAL-STAFF-SDE-STUDY-GUIDE.md`](FINAL-STAFF-SDE-STUDY-GUIDE.md)**
-
-This is the **single long study file**: how to answer any question + deep Q&A from every category (ownership, Rust, system design, distributed systems, security/networking, APIs/ops, Staff leadership, behavioral) in simple technical English.
-
-You already have ~6 years ownership. This guide focuses on **Staff depth** so you can speak clearly in the interview.
+1. **[`SATURDAY-TO-TUESDAY-PLAN.md`](SATURDAY-TO-TUESDAY-PLAN.md)** ← calendar for Sat/Sun/Mon/Tue  
+2. **[`00-READ-IN-THIS-ORDER.md`](00-READ-IN-THIS-ORDER.md)** ← numbered files  
 
 ---
 
-## Extra supporting files (optional)
+## Numbered file list (must read)
 
-| File | Purpose |
-|------|---------|
-| `01-RESUME-VS-STAFF-BAR.md` | Honest gap analysis |
-| `02-WHAT-THEY-WILL-ASK-FROM-RESUME.md` | Predicted probes from your PDF |
-| `03-ANSWER-SCRIPTS-60MIN.md` | Shorter spoken scripts |
-| `04-ZSCALER-BRIDGE-STORIES.md` | WMS → Zscaler language |
-| `05-7DAY-PREP-AND-DAY-OF.md` | Prep checklist |
-| `06-QUESTIONS-AND-80L-POSITIONING.md` | Comp + your questions |
+| # | File |
+|---|------|
+| 0 | `00-READ-IN-THIS-ORDER.md` — master checklist |
+| — | `SATURDAY-TO-TUESDAY-PLAN.md` — this weekend schedule |
+| 1 | `01-START-HERE.md` |
+| 2 | `02-RESUME-VS-STAFF-BAR.md` |
+| 3 | `03-WHAT-THEY-WILL-ASK-FROM-RESUME.md` |
+| 4 | `04-FINAL-STAFF-SDE-STUDY-GUIDE.md` ← main Q&A book |
+| 5 | `05-ANSWER-SCRIPTS-60MIN.md` |
+| 6 | `06-ZSCALER-BRIDGE-STORIES.md` |
+| 7 | `07-HOW-THEY-WILL-SCORE-YOU.md` |
+| 8 | `08-7DAY-PREP-AND-DAY-OF.md` |
+| 9 | `09-QUESTIONS-AND-80L-POSITIONING.md` |
 
-Interviewer side: `../FINAL-1HOUR-BOOK/`
+## Optional (10–14)
 
+Rust / Design / Security / Distributed / Leadership extras — links into the interviewer depth folders.
+
+## Interviewer tools (not your first read)
+
+`../FINAL-1HOUR-BOOK/` — how they score (summarized in file 7)

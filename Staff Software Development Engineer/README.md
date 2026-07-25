@@ -36,11 +36,11 @@ Aligned specifically to **Staff Software Development Engineer at Zscaler**:
 
 ---
 
-## CANDIDATE PREP (Vicky Kumar → clear Staff SDE ~₹80L)
+## CANDIDATE PREP (Vicky — numbered read order)
 
-**→ [`CANDIDATE-PREP-VICKY-80L/`](CANDIDATE-PREP-VICKY-80L/)**
+**→ [`CANDIDATE-PREP-VICKY-80L/00-READ-IN-THIS-ORDER.md`](CANDIDATE-PREP-VICKY-80L/00-READ-IN-THIS-ORDER.md)**
 
-Maps resume `Vicky_Backend_Engineer.pdf` to the exact 60-min loop: predicted probes, spoken answer scripts, Zscaler bridge language, 7-day prep, ₹80L positioning.
+Vicky reads files **1 → 9** in order. Main study book is file **4**. Spoken scripts are file **5**.
 
 ---
 
