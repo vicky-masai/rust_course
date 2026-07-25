@@ -409,6 +409,9 @@ Pick 2–3:
 
 # PART F — FINAL PRE-INTERVIEW CARD (MEMORIZE)
 
+**Study rule:** read once, speak 6 core answers aloud across 3 days — do not memorize whole book.  
+See: `00-STUDY-METHOD-READ-THIS-FIRST.md`
+
 **I am:** freelance builder → startup WMS zero-to-one owner.  
 **I own:** PRD → architecture → Rust → tenancy → deploy → production.  
 **Invariant:** correct stock + tenant isolation.  
