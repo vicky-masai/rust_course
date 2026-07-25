@@ -19,7 +19,7 @@ End-of-loop question:
 
 ---
 
-## START HERE FOR A 1-HOUR INTERVIEW
+## START HERE FOR A 1-HOUR INTERVIEW (INTERVIEWER)
 
 **→ [`FINAL-1HOUR-BOOK/`](FINAL-1HOUR-BOOK/)**
 
@@ -33,6 +33,14 @@ Aligned specifically to **Staff Software Development Engineer at Zscaler**:
 | [`FINAL-1HOUR-BOOK/03-LIVE-SCORECARD.md`](FINAL-1HOUR-BOOK/03-LIVE-SCORECARD.md) | Live score |
 | [`FINAL-1HOUR-BOOK/04-OFFER-DECISION.md`](FINAL-1HOUR-BOOK/04-OFFER-DECISION.md) | Offer decision |
 | [`FINAL-1HOUR-BOOK/05-POCKET-CARD.md`](FINAL-1HOUR-BOOK/05-POCKET-CARD.md) | Printable card |
+
+---
+
+## CANDIDATE PREP (Vicky Kumar → clear Staff SDE ~₹80L)
+
+**→ [`CANDIDATE-PREP-VICKY-80L/`](CANDIDATE-PREP-VICKY-80L/)**
+
+Maps resume `Vicky_Backend_Engineer.pdf` to the exact 60-min loop: predicted probes, spoken answer scripts, Zscaler bridge language, 7-day prep, ₹80L positioning.
 
 ---
 
