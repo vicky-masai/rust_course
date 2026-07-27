@@ -2,7 +2,8 @@
 
 > **Goal:** Design Any System · Build Any Backend · Lead Architecture  
 > **Version:** v1.0 (Recommended Learning Sequence)  
-> **How to use:** Check `[ ]` → `[x]` as you finish each topic. Track daily by number.
+> **How to use:** Check `[ ]` → `[x]` as you finish each topic. Track daily by number.  
+> **Answers:** Staff-level plain-English explanations for every topic → [`TOPIC-ANSWERS/`](./TOPIC-ANSWERS/README.md)
 
 ---
 
