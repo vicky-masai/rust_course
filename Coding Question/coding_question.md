@@ -4,6 +4,8 @@ Interview style: **1-hour coding**. Implement the core logic. Explain trade-offs
 
 **Daily practice (1 question per company):** see [`daily_company_rust_questions.md`](./daily_company_rust_questions.md) — Day 1→100 mapped to each company’s Rust business use case.
 
+**LeetCode in Rust (Staff track):** see [`leetcode_rust_staff.md`](./leetcode_rust_staff.md) — 110+ problems with links, 12-week plan, company-flavored sets.
+
 ---
 
 ## Top 100 companies using Rust (ranked by est. avg US Rust salary)
